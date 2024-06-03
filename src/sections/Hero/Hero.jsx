@@ -41,6 +41,7 @@ function Hero() {
           Patidar
         </h1>
         <h2>Full Stack Developer</h2>
+        <h3>IITR'24</h3>
         <span>
           <a href="https://x.com/_praveen57" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
