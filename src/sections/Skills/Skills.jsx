@@ -27,11 +27,11 @@ function Skills() {
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Recoil" />
-        <SkillList src={checkMarkIcon} skill="Webpack" />
+        <SkillList src={checkMarkIcon} skill="Redux" />
+        <SkillList src={checkMarkIcon} skill="Shadcn UI" />
         <SkillList src={checkMarkIcon} skill="GitHub" />
         <SkillList src={checkMarkIcon} skill="Socket.io" />
-        <SkillList src={checkMarkIcon} skill="MongoDB" />
+        <SkillList src={checkMarkIcon} skill="Recoil" />
       </div>
       <hr />
       <br />
