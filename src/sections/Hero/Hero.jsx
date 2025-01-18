@@ -57,7 +57,10 @@ function Hero() {
           With a passion for developing modern web apps and slight knowledge of ethereum blockchain Web3.
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">Download Resume</button>
+        </a>
+        <a href="https://res.cloudinary.com/deaezmybx/image/upload/v1737198573/cze3d1ddse8mtfyy4nmp.pdf" target='_blank'>
+          <button className="hover">View Resume</button>
         </a>
       </div>
     </section>

@@ -18,16 +18,16 @@ function Projects() {
           p="You can post job as a recruiter or apply for jobs as a Student"
         />
         <ProjectCard
-          src={giphy}
-          link="https://giphy-pi-jet.vercel.app/"
-          h3="Giphy-Clone"
-          p="AweSome Gifs Just click & see the magic"
-        />
-        <ProjectCard
           src={quickchat}
           link="https://quickchat-kgb4.onrender.com/signup"
           h3="QuickChat"
           p="Chatting App, One on One chat in real time"
+        />
+        <ProjectCard
+          src={giphy}
+          link="https://giphy-pi-jet.vercel.app/"
+          h3="Giphy-Clone"
+          p="AweSome Gifs Just click & see the magic"
         />
         <ProjectCard
           src={newsapp}
