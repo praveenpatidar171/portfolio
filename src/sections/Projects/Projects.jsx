@@ -3,7 +3,7 @@ import jobportal from '../../assets/Capture.jpg'
 import quickchat from '../../assets/quickchat.jpg'
 import giphy from '../../assets/giphy.png';
 import newsapp from '../../assets/newsapp.png';
-import betbuzz from '../../assets/betbuzzz.png'
+import betbuzz from '../../assets/betbuzz.png'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
