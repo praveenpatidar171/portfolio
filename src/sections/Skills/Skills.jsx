@@ -20,6 +20,13 @@ function Skills() {
       </div>
       <hr />
       <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="PostgreSql" />
+        <SkillList src={checkMarkIcon} skill="Next.JS" />
+        <SkillList src={checkMarkIcon} skill="Prisma" />
+        <SkillList src={checkMarkIcon} skill="Redis" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="Express.js" />
         <SkillList src={checkMarkIcon} skill="MongoDB" />
@@ -37,10 +44,8 @@ function Skills() {
       <br />
       <h1 className="sectionTitle">Currently Learninig ...</h1>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Prisma" />
-        <SkillList src={checkMarkIcon} skill="Postgres" />
+        <SkillList src={checkMarkIcon} skill="Data Structures & Algorithms" />
         <SkillList src={checkMarkIcon} skill="Docker" />
-        <SkillList src={checkMarkIcon} skill="Next.js" />
         <SkillList src={checkMarkIcon} skill="AWS deployment" />
       </div>
     </section>

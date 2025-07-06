@@ -1,9 +1,9 @@
 import styles from './ProjectsStyles.module.css';
-import blink from '../../assets/blink.png';
 import jobportal from '../../assets/Capture.jpg'
 import quickchat from '../../assets/quickchat.jpg'
 import giphy from '../../assets/giphy.png';
 import newsapp from '../../assets/newsapp.png';
+import betbuzz from '../../assets/betbuzzz.png'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,6 +11,12 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={betbuzz}
+          link="https://betbuzz.onrender.com/"
+          h3="BetBuzz"
+          p="A Probo-style prediction market with real-time odds, portfolio tracking, and smart matching."
+        />
         <ProjectCard
           src={jobportal}
           link="https://job-portal-1jtc.onrender.com"

@@ -59,7 +59,7 @@ function Hero() {
         <a href={CV} download>
           <button className="hover">Download Resume</button>
         </a>
-        <a href="https://res.cloudinary.com/deaezmybx/image/upload/v1740305990/cdxhikqjy6vky8psyi9w.pdf" target='_blank'>
+        <a href="https://res.cloudinary.com/deaezmybx/image/upload/v1751782042/ymeltmj2zquw58qxgu6k.pdf" target='_blank'>
           <button className="hover">View Resume</button>
         </a>
       </div>
